@@ -18,9 +18,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from .core.views import index
+from .core.views import index, inertia_demo
 
 urlpatterns = [
     path("", index, name="index"),
+    path("demo", inertia_demo, name="inertia_demo"),
     path("admin/", admin.site.urls),
 ]
