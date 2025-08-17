@@ -14,4 +14,7 @@ export default defineConfig({
     }
   },
   plugins: [react()],
+  server: {
+    origin: 'http://localhost:5173',
+  }
 })

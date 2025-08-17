@@ -10,3 +10,4 @@ wheels/
 .venv
 
 *.sqlite3
+staticfiles/
