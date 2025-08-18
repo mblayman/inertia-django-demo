@@ -1,3 +1,6 @@
+serve:
+	uv run honcho start
+
 runserver:
 	uv run manage.py runserver
 
