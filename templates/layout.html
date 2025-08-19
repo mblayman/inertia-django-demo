@@ -1,7 +1,12 @@
+{% load django_vite %}
+<!DOCTYPE html>
 <html>
   <head>
+    {% vite_hmr_client %}
+    {% vite_react_refresh %}
   </head>
   <body>
     {% block inertia %}{% endblock %}
+    {% vite_asset 'src/application.jsx' %}
   </body>
 </html>

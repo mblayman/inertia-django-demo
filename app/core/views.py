@@ -6,6 +6,6 @@ def index(request):
     return render(request, "index.html", {})
 
 
-@inertia("IndexPage")
+@inertia("demo/Index")
 def inertia_demo(request):
-    return {"some_prop": True}
+    return {"someProp": "hello world"}

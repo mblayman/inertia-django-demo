@@ -139,5 +139,8 @@ DJANGO_VITE = {
 
 # inertia-django
 
-INERTIA_VERSION = "2.0"
+# TODO: This is supposed to be the asset version for cache busting,
+# and not a ref to the Inertia version itself.
+# This would come from the build process.
+INERTIA_VERSION = "dev"
 INERTIA_LAYOUT = "layout.html"
