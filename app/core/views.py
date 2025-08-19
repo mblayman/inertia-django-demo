@@ -9,3 +9,8 @@ def index(request):
 @inertia("demo/Index")
 def inertia_demo(request):
     return {"someProp": "hello world"}
+
+
+@inertia("other/Index")
+def inertia_other(request):
+    return {"otherProp": "goodbye mars"}
