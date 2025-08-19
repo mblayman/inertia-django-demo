@@ -8,7 +8,3 @@ that django-vite *doesn't run Vite for you!*
 It expects you to have a Vite project running and is the glue
 to bring the Vite app into Django by bridging a Django rendered
 template as the Vite entry point.
-
-TODO:
-
-* [ ] Configure Inertia.js and get a couple of pages going.
