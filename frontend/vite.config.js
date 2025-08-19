@@ -9,7 +9,6 @@ export default defineConfig({
     manifest: 'manifest.json',
     rollupOptions: {
       input: {
-        application: resolve('./src/application.jsx'),
         main: resolve('./src/main.jsx'),
       }
     }
